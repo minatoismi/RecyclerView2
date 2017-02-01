@@ -20,6 +20,5 @@ public class ViewHolder extends RecyclerView.ViewHolder
         super(itemView);
         ivFoto = (ImageView) itemView.findViewById(R.id.imageView);
         tvJudul = (TextView) itemView.findViewById(R.id.textViewJudul);
-        tvDeskripsi = (TextView) itemView.findViewById(R.id.textViewDeskripsi);
     }
 }
